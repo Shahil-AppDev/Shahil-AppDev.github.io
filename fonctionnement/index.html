@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fonctionnement, sources et confidentialité — Lexovance</title>
+<meta name="description" content="Comment fonctionne Lexovance : chaîne de réponse ancrée sur Légifrance et Judilibre, citations vérifiées, inférence sur serveur dédié en Europe, accès bêta privé sur demande.">
+<link rel="canonical" href="https://lexovance.eu/fonctionnement/">
+<link rel="preload" as="font" type="font/woff2" href="/fonts/fraunces-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/fonts/inter-latin.woff2" crossorigin>
+<link rel="stylesheet" href="/editorial.css">
+<script>document.documentElement.classList.add("js")</script>
+<link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png">
+<link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lexovance">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Fonctionnement, sources et confidentialité — Lexovance">
+<meta property="og:description" content="Réponses ancrées sur les sources officielles, citations vérifiées, inférence sur serveur dédié en Europe.">
+<meta property="og:image" content="https://lexovance.eu/brand/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://lexovance.eu/fonctionnement/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "@id": "https://lexovance.eu/fonctionnement/",
+      "url": "https://lexovance.eu/fonctionnement/",
+      "name": "Fonctionnement, sources et confidentialité — Lexovance",
+      "inLanguage": "fr-FR",
+      "isPartOf": { "@id": "https://lexovance.eu/#site" },
+      "about": { "@id": "https://lexovance.eu/#produit" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://lexovance.eu/" },
+        { "@type": "ListItem", "position": 2, "name": "Fonctionnement" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Comment fonctionne Lexovance ?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Lexovance récupère d'abord les textes et décisions pertinents dans les sources officielles (Légifrance, Judilibre) et les pièces jointes, puis rédige une réponse ancrée dont chaque point cite sa source. Les citations sont ensuite vérifiées automatiquement et les sources utilisées re-consultées." }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles sources Lexovance utilise-t-il ?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Légifrance pour les textes en vigueur, Judilibre pour la jurisprudence de la Cour de cassation, les pièces que vous joignez, et — sur option — des articles du Web public en contexte non contraignant." }
+        },
+        {
+          "@type": "Question",
+          "name": "Où sont traitées les questions et les pièces ?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Le modèle fonctionne sur un serveur GPU dédié de Lexovance, hébergé en Europe. Les questions et pièces ne sont pas envoyées à un fournisseur de modèles tiers ; seules les requêtes de récupération des références partent vers les services officiels (Légifrance, Cour de cassation)." }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment accéder à la bêta de Lexovance ?",
+          "acceptedAnswer": { "@type": "Answer", "text": "La bêta est privée : on y accède sur invitation ou en déposant une demande d'accès sur app.lexovance.eu/signup/. Un administrateur recontacte les demandeurs." }
+        },
+        {
+          "@type": "Question",
+          "name": "Lexovance remplace-t-il un avocat ?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Non. Lexovance est un outil d'aide à la recherche, à l'analyse et à la préparation de documents. Il ne délivre pas de consultation juridique ; chaque source citée doit être vérifiée par le professionnel." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="/" aria-label="Lexovance, accueil"><img class="brand-mark" src="/brand/monogram.png" alt="" width="34" height="34">Lexovance<span class="brand-dot">.</span></a>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-principale" aria-label="Ouvrir le menu">Menu</button>
+  <nav class="site-nav" id="nav-principale" aria-label="Navigation principale">
+    <a href="/recherche-juridique/">Recherche</a>
+    <a href="/analyse-contrats/">Contrats</a>
+    <a href="/lexovance-work/">Work</a>
+    <a href="/redaction-documents/">Rédaction</a>
+    <a href="/fonctionnement/" aria-current="page">Fonctionnement</a>
+    <a href="/blog/">Journal</a>
+    <a class="nav-cta" href="https://app.lexovance.eu/signup/">Accès bêta <span aria-hidden="true">↗</span></a>
+  </nav>
+</header>
+<main class="page-main">
+<nav class="crumb"><a href="/">Accueil</a> · Fonctionnement</nav>
+<p class="eyebrow">FONCTIONNEMENT, SOURCES ET CONFIDENTIALITÉ</p>
+<h1 class="pg">Comment fonctionne Lexovance, <em>et ce que deviennent vos données.</em></h1>
+<p class="lede">
+  Lexovance est une IA juridique dédiée au droit français : elle recherche
+  dans les sources officielles, analyse des pièces et prépare des documents,
+  en reliant chaque affirmation à une source vérifiable. Voici la chaîne
+  complète — du question posée à la citation vérifiée.
+</p>
+
+<h2>La chaîne de réponse, étape par étape</h2>
+<table class="def">
+  <tr><th>Étape</th><th>Ce qui se passe</th></tr>
+  <tr><td>1. Périmètre</td><td>La question est contrôlée : hors droit français, l’assistant redirige au lieu de répondre. Les pièces jointes sont traitées comme des données à analyser.</td></tr>
+  <tr><td>2. Date de référence</td><td>La date utile est détectée dans la question (ou fournie) : la réponse vise les textes en vigueur à cette date.</td></tr>
+  <tr><td>3. Récupération</td><td>Les extraits pertinents sont récupérés dans Légifrance et Judilibre via leurs accès officiels, et dans les pièces jointes. Rien trouvé → statut « sources insuffisantes » explicite.</td></tr>
+  <tr><td>4. Réponse ancrée</td><td>La réponse est rédigée sur ces extraits seulement : chaque point juridique porte une citation <code class="ref">[Sn]</code> correspondant à une source listée.</td></tr>
+  <tr><td>5. Vérification</td><td>Les citations sont contrôlées automatiquement, puis les sources utilisées sont re-consultées via les connecteurs ; l’activité de vérification est affichée dans le chat avec son horodatage.</td></tr>
+</table>
+
+<h2>Les sources utilisées</h2>
+<table class="def">
+  <tr><th>Source</th><th>Rôle</th><th>Accès</th></tr>
+  <tr><td><strong>Légifrance</strong></td><td>Textes en vigueur (codes, lois, décrets) avec identifiants officiels</td><td>API officielle, lien direct vers l’article cité</td></tr>
+  <tr><td><strong>Judilibre</strong></td><td>Jurisprudence de la Cour de cassation</td><td>Lien direct vers la décision sur courdecassation.fr</td></tr>
+  <tr><td><strong>Vos pièces</strong></td><td>Contrats, dossiers, correspondances que vous joignez</td><td>Citées par pièce et par page <code class="ref">[Pn p.N]</code></td></tr>
+  <tr><td><strong>Web public</strong> (option)</td><td>Articles de commentaire en contexte</td><td>Signalé comme non contraignant, jamais cité en source officielle</td></tr>
+</table>
+
+<h2>Hébergement et confidentialité</h2>
+<ul class="checklist">
+  <li><strong>Inférence locale</strong> : le modèle fonctionne sur un serveur GPU dédié de Lexovance, hébergé en Europe — vos questions et pièces ne sont pas envoyées à un fournisseur de modèles tiers.</li>
+  <li><strong>Requêtes officielles</strong> : la récupération des références interroge les services officiels (Légifrance, Cour de cassation) ; ces requêtes portent sur les références, pas sur votre dossier.</li>
+  <li><strong>Bêta privée</strong> : l’accès se fait sur invitation ou demande, les comptes sont authentifiés.</li>
+  <li><strong>Honneteté des résultats</strong> : « sources insuffisantes », pièces en échec ou pages inaccessibles sont signalés dans l’interface.</li>
+</ul>
+<p class="note">Cette page décrit la version actuellement servie en bêta. Elle ne constitue ni un DPA ni des CGU : les engagements contractuels sont précisés lors de l’ouverture d’accès.</p>
+
+<h2>Ce que Lexovance ne fait pas</h2>
+<ul>
+  <li>Pas de consultation juridique : outil d’aide à la recherche et à la préparation, sous contrôle du professionnel.</li>
+  <li>Pas de réponse sans source : si les extraits ne couvrent pas la question, l’assistant le dit.</li>
+  <li>Pas de périmètre hors droit français.</li>
+</ul>
+
+<div class="related">
+  <h2>Les parcours concernés</h2>
+  <ul>
+    <li><a href="/recherche-juridique/">Recherche juridique et jurisprudence</a></li>
+    <li><a href="/analyse-contrats/">Analyse de contrats</a></li>
+    <li><a href="/lexovance-work/">Lexovance Work — dossiers et pièces</a></li>
+    <li><a href="/avocats/">Lexovance pour les avocats et juristes</a></li>
+  </ul>
+</div>
+
+<div class="cta-band">
+  <p><strong>La bêta privée est accessible sur demande.</strong></p>
+  <p>Décrivez votre usage en quelques lignes ; un administrateur vous recontacte.</p>
+  <div class="actions"><a class="button primary" href="https://app.lexovance.eu/signup/">Demander l’accès ↗</a></div>
+</div>
+</main>
+<footer class="site-footer">
+  <a class="brand" href="/"><img class="brand-mark" src="/brand/monogram.png" alt="" width="28" height="28">Lexovance<span class="brand-dot">.</span></a>
+  <a href="/recherche-juridique/">Recherche</a>
+  <a href="/analyse-contrats/">Contrats</a>
+  <a href="/lexovance-work/">Work</a>
+  <a href="/redaction-documents/">Rédaction</a>
+  <a href="/fonctionnement/">Fonctionnement</a>
+  <a href="/avocats/">Avocats</a>
+  <a href="/comparatif-ia-juridique/">Comparatif</a>
+  <a href="/blog/">Journal</a>
+  <a href="https://app.lexovance.eu/signup/">Accès bêta ↗</a>
+</footer>
+  <script src="/nav.js" defer></script>
+</body>
+</html>

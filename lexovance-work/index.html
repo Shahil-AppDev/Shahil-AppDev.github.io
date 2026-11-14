@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lexovance Work — Analyser un dossier juridique avec une IA</title>
+<meta name="description" content="Lexovance Work analyse un dossier de pièces avec une IA juridique : chaque affirmation de la synthèse renvoie à une pièce et à sa page, avec la couverture réelle analysée. Démonstration sur dossier fictif.">
+<link rel="canonical" href="https://lexovance.eu/lexovance-work/">
+<link rel="preload" as="font" type="font/woff2" href="/fonts/fraunces-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/fonts/inter-latin.woff2" crossorigin>
+<link rel="stylesheet" href="/editorial.css">
+<script>document.documentElement.classList.add("js")</script>
+<link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png">
+<link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lexovance">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Lexovance Work — Analyser un dossier juridique avec une IA">
+<meta property="og:description" content="Synthèse d’un dossier de pièces : chaque affirmation citée par pièce et par page, couverture réelle affichée, export Word et PDF.">
+<meta property="og:image" content="https://lexovance.eu/brand/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://lexovance.eu/lexovance-work/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://lexovance.eu/lexovance-work/",
+      "url": "https://lexovance.eu/lexovance-work/",
+      "name": "Lexovance Work — Analyser un dossier juridique avec une IA",
+      "inLanguage": "fr-FR",
+      "isPartOf": { "@id": "https://lexovance.eu/#site" },
+      "about": { "@id": "https://lexovance.eu/#produit" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://lexovance.eu/" },
+        { "@type": "ListItem", "position": 2, "name": "Lexovance Work" }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="/" aria-label="Lexovance, accueil"><img class="brand-mark" src="/brand/monogram.png" alt="" width="34" height="34">Lexovance<span class="brand-dot">.</span></a>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-principale" aria-label="Ouvrir le menu">Menu</button>
+  <nav class="site-nav" id="nav-principale" aria-label="Navigation principale">
+    <a href="/recherche-juridique/">Recherche</a>
+    <a href="/analyse-contrats/">Contrats</a>
+    <a href="/lexovance-work/" aria-current="page">Work</a>
+    <a href="/redaction-documents/">Rédaction</a>
+    <a href="/fonctionnement/">Fonctionnement</a>
+    <a href="/blog/">Journal</a>
+    <a class="nav-cta" href="https://app.lexovance.eu/signup/">Accès bêta <span aria-hidden="true">↗</span></a>
+  </nav>
+</header>
+<main class="page-main">
+<nav class="crumb"><a href="/">Accueil</a> · Lexovance Work</nav>
+<p class="eyebrow">LEXOVANCE WORK — DOSSIERS ET PIÈCES</p>
+<h1 class="pg">Analyser un dossier juridique, <em>de la pièce à la page citée.</em></h1>
+<p class="lede">
+  Déposez les pièces d’un dossier dans Lexovance Work. Chaque document est
+  découpé en pages repérées ; la mission de synthèse lit pièce par pièce puis
+  rédige un livrable dont chaque affirmation renvoie à une pièce et à sa page —
+  cliquables, pour rouvrir le passage exact.
+</p>
+<div class="actions">
+  <a class="button primary" href="https://app.lexovance.eu/signup/">Demander l’accès à la bêta ↗</a>
+  <a class="button secondary" href="/fonctionnement/">Fonctionnement et confidentialité ↗</a>
+</div>
+
+<div class="demo">
+  <span class="tag">EXEMPLE SUR DONNÉES FICTIVES</span>
+  <h2>La tâche : synthétiser un dossier de contentieux travaux</h2>
+  <p>Un dossier fictif « rénovation d’un local commercial » contient quatre pièces déposées dans la bibliothèque :</p>
+  <ul class="checklist">
+    <li><strong>P1</strong> — Devis signé et planning prévisionnel (12 pages)</li>
+    <li><strong>P2</strong> — Factures et relevés de paiement (38 pages)</li>
+    <li><strong>P3</strong> — Contrat de sous-traitance (24 pages)</li>
+    <li><strong>P4</strong> — Courriers échangés et constat (41 pages)</li>
+  </ul>
+  <h3>Extrait du livrable de synthèse</h3>
+  <div class="excerpt">
+    « Le devis signé prévoyait un délai global de dix semaines
+    <code class="ref">[P1 p.4]</code>. Les factures acquittées couvrent
+    60&nbsp;% du montant prévu <code class="ref">[P2 p.2]</code>. Le courrier
+    du 14 mars signale des désordres apparents sur le second œuvre
+    <code class="ref">[P4 p.1]</code>. Le contrat de sous-traitance exclut la
+    coordination des intervenants <code class="ref">[P3 p.9]</code>. »
+  </div>
+  <p>Chaque <code class="ref">[Pn]</code> ouvre la pièce ; chaque <code class="ref">[Pn p.N]</code> ouvre la page exacte dans le lecteur — la vérification se fait sans quitter le livrable.</p>
+  <h3>La couverture réelle, affichée</h3>
+  <div class="excerpt">
+    Couverture : 4/4 pièces analysées · 115 pages traitées · aucune pièce en échec · aucune page sans texte exploitable.
+  </div>
+  <h3>L’action suivante</h3>
+  <p>Exporter le livrable en Word ou PDF, ou poursuivre avec une
+  <a href="/redaction-documents/">production</a> — par exemple un courrier de mise en demeure préparé à partir de ces pièces.</p>
+</div>
+
+<h2>Ce que fait Lexovance Work</h2>
+<ul class="checklist">
+  <li><strong>Bibliothèque de pièces</strong> : chaque document reçoit un numéro P1, P2… avec son état d’extraction et ses pages repérées.</li>
+  <li><strong>Missions de synthèse</strong> : lecture pièce par pièce puis synthèse, en arrière-plan ; la progression est tracée étape par étape.</li>
+  <li><strong>Citations à la page</strong> : les affirmations du livrable citent <code class="ref">[Pn]</code> et <code class="ref">[Pn p.N]</code>, cliquables vers le passage.</li>
+  <li><strong>Couverture honnête</strong> : pièces analysées/totales, pages lues, pièces en échec ou sans texte — rien n’est dissimulé.</li>
+  <li><strong>Recherche unifiée</strong> : interrogez les pièces, les correspondances, les sources officielles ou le Web, avec liens vers le passage.</li>
+  <li><strong>Comparaison et veilles</strong> : comparez deux versions d’une pièce ; programmez des veilles sur les sources connectées.</li>
+  <li><strong>Export</strong> : livrables exportés en .docx ou .pdf pour le dossier de travail.</li>
+</ul>
+
+<h2>Limites à connaître</h2>
+<ul>
+  <li>L’analyse porte sur le texte extrait : une pièce scannée illisible est signalée « sans texte exploitable », pas inventée.</li>
+  <li>La synthèse est une aide à la préparation : les citations mènent aux passages pour relecture, elles ne s’y substituent pas.</li>
+  <li>Disponible dans la bêta privée, sur dossiers que vous êtes habilité à traiter.</li>
+</ul>
+
+<div class="related">
+  <h2>Pour aller plus loin</h2>
+  <ul>
+    <li><a href="/redaction-documents/">Préparer courriers, notes et contrats à partir du dossier</a></li>
+    <li><a href="/fonctionnement/">Fonctionnement, sources et confidentialité</a></li>
+    <li><a href="/avocats/">Lexovance pour les avocats et juristes</a></li>
+  </ul>
+</div>
+
+<div class="cta-band">
+  <p><strong>Lexovance Work est disponible dans la bêta privée.</strong></p>
+  <p>Décrivez votre usage en quelques lignes ; un administrateur vous recontacte pour l’accès.</p>
+  <div class="actions"><a class="button primary" href="https://app.lexovance.eu/signup/">Demander l’accès ↗</a></div>
+</div>
+</main>
+<footer class="site-footer">
+  <a class="brand" href="/"><img class="brand-mark" src="/brand/monogram.png" alt="" width="28" height="28">Lexovance<span class="brand-dot">.</span></a>
+  <a href="/recherche-juridique/">Recherche</a>
+  <a href="/analyse-contrats/">Contrats</a>
+  <a href="/lexovance-work/">Work</a>
+  <a href="/redaction-documents/">Rédaction</a>
+  <a href="/fonctionnement/">Fonctionnement</a>
+  <a href="/avocats/">Avocats</a>
+  <a href="/comparatif-ia-juridique/">Comparatif</a>
+  <a href="/blog/">Journal</a>
+  <a href="https://app.lexovance.eu/signup/">Accès bêta ↗</a>
+</footer>
+  <script src="/nav.js" defer></script>
+</body>
+</html>
